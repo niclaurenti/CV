@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1706375855 "/Users/niccololaurenti/Documents/CV_new/cv.tex" "/Users/niccololaurenti/Documents/CV_new/cv.pdf" "cv" 1706375856
-  "/Users/niccololaurenti/Documents/CV_new/cv.aux" 1706090490 717 5a450f137a78ee56acd863d9a3fd8b26 ""
-  "/Users/niccololaurenti/Documents/CV_new/cv.tex" 1706375855 3808 a9c6006c4715e09970fc3e3b4773f460 ""
+["pdflatex"] 1706871793 "/Users/niccololaurenti/CV_new/cv.tex" "/Users/niccololaurenti/CV_new/cv.pdf" "cv" 1706873058
+  "/Users/niccololaurenti/CV_new/cv.aux" 1706872693 717 5a450f137a78ee56acd863d9a3fd8b26 ""
+  "/Users/niccololaurenti/CV_new/cv.tex" 1706871792 3808 a9c6006c4715e09970fc3e3b4773f460 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -37,9 +37,9 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643975374 2724738 824803b049c3ddcb0ec95b1bf5cb486a ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "awesome-cv.cls" 1705072945 30143 99ac439ad15994d43df558c6c53ed7d4 ""
-  "cv.tex" 1706375855 3808 a9c6006c4715e09970fc3e3b4773f460 ""
+  "awesome-cv.cls" 1706376014 30143 99ac439ad15994d43df558c6c53ed7d4 ""
+  "cv.tex" 1706871792 3808 a9c6006c4715e09970fc3e3b4773f460 ""
   (generated)
   "cv.log"
-  "/Users/niccololaurenti/Documents/CV_new/cv.pdf"
-  "/Users/niccololaurenti/Documents/CV_new/cv.log"
+  "/Users/niccololaurenti/CV_new/cv.log"
+  "/Users/niccololaurenti/CV_new/cv.pdf"

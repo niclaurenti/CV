@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2022.2.4)  27 JAN 2024 18:20
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2022.2.4)  2 FEB 2024 12:24
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -1119,13 +1119,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 Here is how much of LuaTeX's memory you used:
  35184 strings out of 478531
  125086,1373583 words of node,token memory allocated
- 650 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 81 glue_spec,
- 9 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:2,2:1250,3:386,4:321,5:954,6:151,7:7629,8:42,9:870,10:22,11:54
-8
+ 660 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 81 glue_spec
+, 10 attribute_list, 2 write, 2 pdf_action nodes
+   avail lists: 1:1,2:1254,3:390,4:337,5:989,6:151,7:7735,8:44,9:872,10:22,11:56
+9
  53893 multiletter control sequences out of 65536+600000
- 135 fonts using 40355571 bytes
+ 135 fonts using 40355647 bytes
  127i,11n,137p,549b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-RegularIt.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm-
@@ -1141,10 +1141,10 @@ oto/Roboto-Regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public
 /fonts/opentype/adobe/sourcesanspro/SourceSansPro-Regular.otf></usr/local/texliv
 e/2021/texmf-dist/fonts/opentype/google/roboto/Roboto-Bold.otf></usr/local/texli
 ve/2021/texmf-dist/fonts/opentype/google/roboto/Roboto-Light.otf>
-Output written on cv.pdf (2 pages, 51101 bytes).
+Output written on cv.pdf (2 pages, 51786 bytes).
 
-PDF statistics: 134 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+PDF statistics: 137 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
