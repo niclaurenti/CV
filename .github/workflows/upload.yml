@@ -1,0 +1,27 @@
+name: Deploy PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Compile LaTeX to PDF
+        run: make
+
+      - name: Copy PDF to niclaurenti.github.io repository
+        run: |
+          cp cv.pdf niclaurenti.github.io/files
+          cd niclaurenti.github.io/
+          git config --global user.email "niclaurenti@gmail.com"
+          git config --global user.name "niclaurenti"
+          git add -u
+          git commit -m "Update PDF via Github workflow: ${{ github.event.head_commit.message }}"
+          git push origin main
