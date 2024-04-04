@@ -16,9 +16,8 @@ jobs:
       - name: Install LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive
+          sudo apt-get install -y texlive-full
           sudo apt-get install -y texlive-luatex
-          sudo tlmgr install enumitem
 
       - name: Compile LaTeX to PDF
         run: make
