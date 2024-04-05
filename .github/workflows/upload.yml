@@ -27,3 +27,10 @@ jobs:
         with:
           name: my-cv
           path: cv.pdf
+
+      - name: Trigger workflow in niclaurenti.github.io
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: niclaurenti/niclaurenti.github.io
+          event-type: upload-event
