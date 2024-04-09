@@ -22,15 +22,22 @@ jobs:
       - name: Compile LaTeX to PDF
         run: make
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+      - name: Clone niclaurenti.github.io
+        uses: actions/checkout@v2
         with:
-          name: my-cv
-          path: cv.pdf
-
-      - name: Trigger workflow in niclaurenti.github.io
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: niclaurenti/niclaurenti.github.io
-          event-type: upload-event
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          path: niclaurenti.github.io
+
+      - name: Copy cv.pdf
+        run: |
+            cp cv.pdf niclaurenti.github.io/files
+    
+      - name: Commit and Push Changes
+        run: |
+          cd niclaurenti.github.io
+          git config user.email "niclaurenti@gmail.com"
+          git config user.name "niclaurenti"
+          git add files/cv.pdf
+          git commit -m "Automated update of cv.pdf"
+          git push
