@@ -39,5 +39,5 @@ jobs:
           git config user.email "niclaurenti@gmail.com"
           git config user.name "niclaurenti"
           git add files/cv.pdf
-          git commit -m "Automated update of cv.pdf"
+          git commit -m "Automated update of cv.pdf: ${{ github.event.head_commit.message }}"
           git push
