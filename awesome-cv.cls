@@ -150,6 +150,10 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
+\definecolor{awesome-darkblue}{HTML}{0A3D62}
+\definecolor{darkblue}{HTML}{000080}
+\definecolor{facebook-blue}{HTML}{1877F2}
+\definecolor{facebook-darkblue}{HTML}{0165E1}
 \colorlet{awesome}{awesome-red}
 
 % Boolean value to switch section color highlighting
